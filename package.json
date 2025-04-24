@@ -1,0 +1,57 @@
+{
+  "name": "app-hubdash",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@patternfly/icons": "^1.0.3",
+    "@patternfly/patternfly": "^6.2.0",
+    "@patternfly/quickstarts": "^6.2.0",
+    "@patternfly/react-charts": "^8.2.1",
+    "@patternfly/react-code-editor": "^6.2.0",
+    "@patternfly/react-component-groups": "^6.2.0",
+    "@patternfly/react-core": "^6.2.0",
+    "@patternfly/react-drag-drop": "^6.2.0",
+    "@patternfly/react-icons": "^6.2.0",
+    "@patternfly/react-log-viewer": "^6.2.0",
+    "@patternfly/react-styles": "^6.2.0",
+    "@patternfly/react-table": "^6.2.0",
+    "@patternfly/react-tokens": "^6.2.0",
+    "@patternfly/react-topology": "^6.2.0",
+    "@patternfly/react-user-feedback": "^6.1.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.5.0",
+    "react-scripts": "5.0.1",
+    "victory": "^37.3.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

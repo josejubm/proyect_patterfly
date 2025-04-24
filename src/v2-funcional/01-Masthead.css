@@ -1,0 +1,100 @@
+/* src/01-Masthead.css */
+
+/* 🌐 Configuración general del Masthead */
+.pf-v6-c-masthead.pf-m-display-inline {
+  --pf-v6-c-masthead--ColumnGap: 0.75rem;
+  --pf-v6-c-masthead--GridTemplateColumns: auto auto 1fr auto;
+  --pf-v6-c-masthead--BackgroundColor: #1f1f1f;
+  --pf-v6-c-masthead--BorderColor: #00f0ff;
+  --pf-v6-c-masthead--BorderWidth: 4px;
+}
+
+
+/* 🧱 Fila principal del Masthead */
+.pf-v6-c-masthead__main {
+  display: grid;
+  grid-template-columns: var(--pf-v6-c-masthead--GridTemplateColumns);
+  width: 100%;
+  align-items: center;
+  gap: var(--pf-v6-c-masthead--ColumnGap);
+  padding-left: 10px;
+}
+
+/* 🧩 Espacio flexible entre logo y contenido derecho */
+.masthead-grow-space {
+  height: 100%;
+  width: 100%;
+}
+
+/* 🍔 Botón de menú hamburguesa */
+.custom-bar-icon {
+  background-color: #0d6efd;
+  border: 1px solid #ee0000;
+  border-radius: 6px;
+  padding-left: 0px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: yellow;
+}
+
+.custom-bar-icon svg {
+  width: 18px;     /* 🔽 más pequeño */
+  height: 18px;
+}
+
+
+.custom-brand {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+  margin: 0 10px;
+}
+
+
+
+
+/* 🧊 Contenedor del logo igual en tamaño al botón */
+.pf-v6-c-masthead__logo {
+  background-color: #0d6efd;
+  border: 1px solid #ee0000;
+  border-radius: 6px;
+  padding: 0px;
+  margin: 20px 10px 20px;
+  height: 80px;
+  width: 200px;
+
+
+}
+
+/* 🖼️ Imagen del logo centrada y contenida*/
+.pf-v6-c-masthead__logo img {
+  height: 120px;
+  width: 200px;
+  object-fit: contain;
+  display: block;
+  padding-left: 1px;
+  align-content: center;
+}
+  
+/* 🧭 Contenido derecho del Masthead */
+.pf-v6-c-masthead__content {
+  margin-left: auto;
+  display: flex;
+  align-content: center;
+  padding-left: 10px;
+  border-left: 2px dashed #999;
+  background-color: #0d6efd;           /* Fondo azul */
+  border: 1px solid #ee0000;           /* Borde rojo */
+  border-radius: 6px;                  /* Bordes redondeados */
+  padding: 0.25rem 0.75rem;            /* Espaciado interno horizontal */
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  color: white;
+  gap: 0.5rem;                         /* Espaciado entre íconos o elementos internos */
+}
+

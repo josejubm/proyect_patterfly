@@ -1,0 +1,76 @@
+/* src/01-Masthead.css */
+
+/* 🌐 Configuración general del Masthead */
+.pf-v6-c-masthead.pf-m-display-inline {
+  --pf-v6-c-masthead--ColumnGap: 0.75rem;
+  --pf-v6-c-masthead--GridTemplateColumns: auto auto 1fr auto;
+  --pf-v6-c-masthead--BackgroundColor: #1f1f1f;
+  --pf-v6-c-masthead--BorderColor: #00f0ff;
+  --pf-v6-c-masthead--BorderWidth: 4px;
+}
+
+/* 🧱 Fila principal del Masthead */
+.pf-v6-c-masthead__main {
+  display: grid;
+  grid-template-columns: var(--pf-v6-c-masthead--GridTemplateColumns);
+  width: 100%;
+  align-items: center;
+  gap: var(--pf-v6-c-masthead--ColumnGap);
+}
+
+/* 🧩 Espacio flexible entre logo y contenido derecho */
+.masthead-grow-space {
+  height: 100%;
+  width: 100%;
+}
+
+/* 🍔 Botón de menú hamburguesa */
+.custom-bar-icon {
+  background-color: #0d6efd;
+  border: 1px solid #ee0000;
+  border-radius: 6px;
+  padding: 0px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: yellow;
+}
+
+/* 🧊 Contenedor del logo igual en tamaño al botón */
+.pf-v6-c-masthead__logo {
+  background-color: #0d6efd;
+  border: 1px solid #ee0000;
+  border-radius: 6px;
+  padding: 0px;
+  height: 10px;
+  width: 10px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+
+}
+
+/* 🖼️ Imagen del logo centrada y contenida */
+.pf-v6-c-masthead__logo img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  display: block;
+  padding: 0px;
+}
+  
+/* 🧭 Contenido derecho del Masthead */
+.pf-v6-c-masthead__content {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 0px;
+  border-left: 2px dashed #999;
+}
+

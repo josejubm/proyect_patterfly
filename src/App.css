@@ -1,0 +1,15 @@
+/* Importa los estilos base de PatternFly */
+@import '@patternfly/patternfly/patternfly.css';
+@import '@patternfly/patternfly/patternfly-addons.css';
+
+/* Estilos adicionales si los necesitas */
+body {
+  font-family: 'RedHatText', helvetica, arial, sans-serif;
+}
+
+.pf-c-page__header {
+  display: block !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 1000 !important;
+}
